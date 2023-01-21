@@ -10,5 +10,4 @@ public class CarServiceApp {
 		SpringApplication.run(CarServiceApp.class, args);
 		
 	}
-
 }
