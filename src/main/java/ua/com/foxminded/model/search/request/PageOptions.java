@@ -12,7 +12,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PageOptions {
-	private int page = 1;
+	private int page = 0;
 	private int size = DEFAULT_PAGE_SIZE;
 	private String sort = "id";
 	private boolean descent = false;
